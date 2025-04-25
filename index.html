@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blushops - Início</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #0055aa;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0077cc;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      padding: 15px;
+    }
+    .ads-left, .ads-right {
+      width: 120px;
+      min-height: 600px;
+    }
+    .ads-left {
+      margin-right: 10px;
+    }
+    .ads-right {
+      margin-left: 10px;
+    }
+    .content {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .filters {
+      margin-bottom: 20px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #0055aa;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .ad-box {
+      background: #eee;
+      border: 1px dashed #ccc;
+      height: 250px;
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 250px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blushops</h1>
+    <p>As melhores ofertas de lojas como Shopee, Amazon e Mercado Livre</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="pet.html">Pet</a>
+    <a href="cozinha.html">Cozinha</a>
+    <a href="banheiro.html">Banheiro</a>
+    <a href="casa.html">Casa</a>
+    <a href="eletronicos.html">Eletrônicos</a>
+    <a href="fitness.html">Fitness</a>
+  </nav>
+
+  <div class="container">
+    <div class="ads-left">
+      <div class="ad-box">AdSense 1</div>
+      <div class="ad-box">AdSense 2</div>
+    </div>
+
+    <div class="content">
+      <div class="filters">
+        <label>Loja referência:</label>
+        <select>
+          <option value="todas">Todas</option>
+          <option value="shopee">Shopee</option>
+          <option value="amazon">Amazon</option>
+          <option value="mercado">Mercado Livre</option>
+        </select>
+
+        <label style="margin-left: 20px;">Tipo de produto:</label>
+        <select>
+          <option value="todos">Todos</option>
+          <option value="pet">Pet</option>
+          <option value="cozinha">Cozinha</option>
+          <option value="banheiro">Banheiro</option>
+          <option value="casa">Casa</option>
+          <option value="eletronicos">Eletrônicos</option>
+          <option value="fitness">Fitness</option>
+        </select>
+      </div>
+
+      <div class="product">Produto 1 - Shopee - Cozinha</div>
+      <div class="product">Produto 2 - Amazon - Pet</div>
+      <div class="product">Produto 3 - Mercado Livre - Fitness</div>
+    </div>
+
+    <div class="ads-right">
+      <div class="ad-box">AdSense 3</div>
+      <div class="ad-box">AdSense 4</div>
+    </div>
+  </div>
+
+  <footer>
+    AdSense 5 - Rodapé fixo
+  </footer>
+</body>
+</html>
